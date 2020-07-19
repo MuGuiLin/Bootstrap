@@ -1,0 +1,116 @@
+body{ font-family: "微软雅黑";}
+/*----------------nav-----------------*/
+.navbar-default{
+	border: none;
+	box-shadow: 0px 2px 8px 0px rgba(50,50,50,0.4);
+}
+.navbar-default .navbar-brand{
+	height: 64px;
+	transition: all 0.8s;
+	padding: 4px 10px;
+}
+.navbar-default .navbar-brand img{
+	margin: 0px;
+	float: left;
+  	height: 56px;
+}
+.navbar-default .navbar-nav .active a{
+	color: #129376;
+	border-bottom: 2px solid #11C69E;
+}
+.navbar-default .navbar-nav > li > a{
+	padding-top: 22px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.8s;
+    border-bottom: 2px solid #F8F8F8;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	
+	background: #E7E7E7;
+	border-bottom: 2px solid #11C69E;
+}
+.navbar-default .navbar-toggle {
+    border-color: #2ABDA7;
+    background: none;
+    transition: all 0.8s;
+}
+.navbar-default .navbar-toggle:hover {
+	background:#2ABDA7;
+    border-color: #2ABDA7;
+    border-color: #128171;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #128171;
+}
+.navbar-default button.navbar-toggle {
+    margin-top: 14px;
+}
+#xiaoxi{
+	margin-top: -4px;
+	background: #D13912;
+}
+
+/*----------------caveat-----------------*/
+#caveat{
+	margin-top: 64px;
+	padding: 20px 0px;
+}
+#caveat p{
+	line-height: 30px;
+}
+
+#caveat table td{
+	text-align: center;
+}
+#caveat .panel-body span{
+	line-height: 25px;
+}
+.txwh64{
+	width: 64px;
+	height: 64px;
+	border-radius:50% ;
+}
+.resizeNO{
+	resize: none;
+}
+.margintop15px{
+	margin-top: 15px;
+}
+
+
+/*----------------useradmin-----------------*/
+#useradmin{
+	margin-top: 84px;
+}
+#useradmin .page-header, .page-header h3{
+	margin: 0px;
+}
+
+#useradmin .nav-tabs{
+	margin-top: 20px;
+}
+#useradmin table td, th{
+	text-align: center;
+	vertical-align: middle;
+}
+
+#useradmin .sousuoform{
+	padding: 10px;
+	border: 1px solid #DDDDDD;
+	border-top: none;
+}
+.textCenter{
+	text-align: center;
+}
+
+
+
+#label .alert{
+	margin-left: 30px;
+}
+/*----------------footer-----------------*/
+footer{ width: 100%; padding: 20px 0px;  font-size: 1.1em; text-align: center; border-top: 1px solid rgba(15,142,113, 0.6); background: #F8F8F8;}
+footer p{ margin: 0px; float: left; margin-left: 20px;}
+
